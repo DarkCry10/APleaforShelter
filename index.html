@@ -1,51 +1,690 @@
-<!-- EJEMPLO: TRACK 01 -->
-<article class="evidence-block" id="track-01">
-  <div class="evidence-header">
-    <span class="badge-cctv">EVIDENCIA #01 // REGISTRO CCTV</span>
-    <span class="timestamp">10:42 PM — CAM 04</span>
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Plea for Shelter — DarkCry 1.0 Archive</title>
+  <meta name="description" content="Expediente interactivo y novela visual documental sobre A Plea for Shelter (Side B de My LIVE HOME) de DarkCry 1.0. Registro pericial del teléfono móvil hallado en la vía pública.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <!-- Fotografía Forense PNG -->
-  <div class="evidence-media">
-    <img src="assets/images/aplea_01_cold_all_around.png" 
-         alt="CCTV Registro nocturno Cold All Around" 
-         loading="lazy">
-  </div>
-
-  <!-- Reproductor Oficial -->
-  <div class="audio-player-widget">
-    <div class="track-info">
-      <span class="track-title">Cold All Around — DarkCry 1.0</span>
-      <span class="player-controls">⏩ ▶️ ⏪ ⏯️</span>
+  <!-- NAVEGACIÓN SUPERIOR FORENSE -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <img src="assets/images/dcx_logo.png" alt="DCX Monogram" class="nav-monogram">
+      <div class="nav-titles">
+        <span class="nav-system">DEPARTAMENTO PERICIAL // ARCHIVO DIGITAL</span>
+        <span class="nav-case">EXPEDIENTE DC-104 // A PLEA FOR SHELTER</span>
+      </div>
     </div>
-    <blockquote class="official-lyrics">
-      "I want and I need to find a safe space,<br>
-      Just a quiet corner to make it through the night.<br>
-      Escaped from the prison that was never my place,<br>
-      With nothing in my hands and terrified of the light."
-    </blockquote>
-  </div>
+    <div class="nav-right">
+      <a href="https://darkcry10.github.io/" class="portal-link">[ VOLVER AL PORTAL CENTRAL ]</a>
+    </div>
+  </header>
 
-  <!-- Interfaz del Smartphone Hallado -->
-  <div class="smartphone-wrapper">
-    <div class="smartphone-bezel">
-      <div class="smartphone-screen">
-        <div class="phone-status-bar">
-          <span class="carrier">⚠ Solo emergencias</span>
-          <span class="clock">03:18 AM</span>
-          <span class="battery-icon b-82">82% █</span>
+  <main class="case-container">
+
+    <!-- PORTADA Y PRESENTACIÓN EDITORIAL -->
+    <section class="case-header">
+      <div class="case-badge">REGISTRO DE EVIDENCIA MATERIAL: TELÉFONO MÓVIL RECUPERADO</div>
+      <h1 class="case-title">A PLEA FOR SHELTER</h1>
+      <p class="case-subtitle">SIDE B &bull; MY LIVE "HOME" &bull; DARKCRY 1.0</p>
+
+      <div class="case-cover-wrapper">
+        <img src="assets/images/a_plea_for_shelter_cover.png" alt="A Plea for Shelter Cover" class="case-cover">
+      </div>
+
+      <div class="investigation-intro">
+        <div class="terminal-text">
+          <p><span class="prompt-arrow">&gt;</span> <strong>INFORME DE HALLAZGO:</strong> Dispositivo inteligente localizado sobre el asfalto mojado en las inmediaciones de la terminal metropolitana. Pantalla con fractura transversal profunda en cristal templado. Sin bloqueo biométrico ni contraseña.</p>
+          <p><span class="prompt-arrow">&gt;</span> <strong>INSTRUCCIÓN:</strong> Deslice cronológicamente a través de los sectores de memoria recuperados. Cada bloque contiene una captura pericial/CCTV, la reproducción de audio vinculada y la transcripción exacta del bloc de notas del menor.</p>
         </div>
-        <div class="notes-app">
-          <div class="notes-header">
-            <span>&lt; Notas</span>
-            <span class="notes-time">Noche 0 &bull; 03:18 AM</span>
-          </div>
-          <div class="notes-content">
-            <p>Tengo frío, mucho frío. No sé qué hacer, estoy cansado, no he comido, tengo hambre, sueño, y me duele... pero no quiero pensar que fue todo mi culpa. Quizás no debí responder, quizás debí quedarme callado, no decir nada... pero ahora estoy afuera. No sé qué va a pasar mañana, pero... solo necesito aguantar un poco más, solo un poco más.</p>
-            <span class="cursor-blink">▌</span>
+      </div>
+    </section>
+
+    <!-- PISTA 01: COLD ALL AROUND -->
+    <article class="evidence-entry" id="track-01">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #01 &bull; REGISTRO CCTV</span>
+        <span class="cctv-code">10:42 PM — CAM 04 // CALLE CENTRAL</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_01_cold_all_around.png" alt="CCTV Registro nocturno Cold All Around" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Cold All Around — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "I want and I need to find a safe space,<br>
+          Just a quiet corner to make it through the night.<br>
+          Escaped from the prison that was never my place,<br>
+          With nothing in my hands and terrified of the light."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">03:18 AM &bull; ⚠ Solo emergencias</span>
+              <span class="status-right">82% █</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Noche 0 &bull; 03:18 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Tengo frío, mucho frío. No sé qué hacer, estoy cansado, no he comido, tengo hambre, sueño, y me duele... pero no quiero pensar que fue todo mi culpa. Quizás no debí responder, quizás debí quedarme callado, no decir nada... pero ahora estoy afuera. No sé qué va a pasar mañana, pero... solo necesito aguantar un poco más, solo un poco más.</p>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</article>
+    </article>
+
+    <!-- PISTA 02: EAT CIGARETTES -->
+    <article class="evidence-entry" id="track-02">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #02 &bull; REGISTRO DE CALZADA</span>
+        <span class="cctv-code">11:15 PM — CAM 02 // PARADA DE AUTOBÚS</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_02_eat_cigarettes.png" alt="CCTV Banca de parada Eat Cigarettes" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Eat Cigarettes — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "I've got nothing left but a single cigarette,<br>
+          So I'll smoke and I'll smoke to forget the regret.<br>
+          I hope my mind numbs the bad I can't erase,<br>
+          'Cause I'm way too young to be stuck in this place.<br>
+          I couldn't afford anything but this smoke,<br>
+          I'm not gonna eat, I'll just drag till I choke."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">08:45 PM &bull; 📶 Solo 2G</span>
+              <span class="status-right">74% █</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Día 4 &bull; 08:45 PM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>No me quedó mucho dinero después de comprar el boleto del bus para venirme a la ciudad, así que supongo debo de guardar por si necesito más adelante, nunca había fumado pero leí que ayuda a quitar el hambre, y como con lo que traigo no me alcanza para algo de comer supongo lo gastaré en un solo cigarro.</p>
+                <div class="system-memo-line">[BALANCE: BOLETO -$180 | RESTANTE EN BOLSILLO: 1 CIGARRO SUELTO]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 03: LOCKED DOOR -->
+    <article class="evidence-entry" id="track-03">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #03 &bull; MONITOREO RESIDENCIAL</span>
+        <span class="cctv-code">11:48 PM — CAM 07 // RESIDENCIAL ORIENTE // CALLEJÓN SUR</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_03_locked_door.png" alt="CCTV Zaguán Locked Door" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Locked Door — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "He called you inside, and the door was closed tight.<br>
+          (My little boy, you don't know how sorry I am.)<br>
+          He told you 'you can stay,' promising the light,<br>
+          (But you know that the shelter was part of the scam.)<br>
+          He brought you inside, a locked door in the wood...<br>
+          At least you will rest with a roof overhead,<br>
+          But soon you will know that it wasn't for good."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">11:42 PM &bull; ⚠ Llamadas SOS</span>
+              <span class="status-right">61% █</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Semana 2 &bull; 11:42 PM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Hace un tiempo había conocido a un profesor que se había jubilado, dijo que cualquier cosa que necesitara podría ayudarme, justo antes de que todo esto sucediera lo llamé, le dije que había peleado con ella y que me había echado a la calle, él dijo que podía quedarme en su casa, si soy sincero no estaba muy seguro, pero qué más podía hacer, era eso o dormir en la calle así que, vamos para allá.</p>
+                <div class="system-memo-line">[HISTORIAL: 1 LLAMADA SALIENTE // PROF. JUBILADO // DURACIÓN: 2M 14S]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 04: NEED THE GREEN -->
+    <article class="evidence-entry" id="track-04">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #04 &bull; ANDÉN CLAUSURADO</span>
+        <span class="cctv-code">12:20 AM — CAM 09 // SALA DE ESPERA // TERMINAL CERRADA</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_04_need_the_green.png" alt="CCTV Terminal Cerrada Need The Green" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Need The Green — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "I really need the green of those dollar bills,<br>
+          I need it so bad just to cure these chills.<br>
+          A place to fall asleep and make the feelings cease,<br>
+          I don't wanna sleep in the train station, I need peace.<br>
+          Somehow I'm gonna get the green and ease the pain,<br>
+          I gotta do whatever just to break the chain.<br>
+          From what I see, my body is the only thing I've got,<br>
+          And it's the only thing these men are looking at a lot."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">12:24 AM &bull; 📶 E (Sin saldo)</span>
+              <span class="status-right">47% █</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Estación &bull; 12:24 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Tuve que salir de ahí, después de dos semanas que me tuvo, se cansó de mí y simplemente me echó de nuevo a la calle, le limpié la casa, le cociné, y aun así decidió simplemente que ya no podía ayudarme más, me odio a mí mismo, no sé qué más hacer, estoy aburrido, estoy cansado, no sé qué hacer para conseguir dinero, me dijo que era lindo pero, ¿qué puedo hacer con eso?</p>
+                <div class="system-memo-line">[BÚSQUEDA CACHÉ: "CUANTO CUESTA NOCHE MOTEL CENTRO"]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 05: HOTEL BED 2.0 -->
+    <article class="evidence-entry" id="track-05">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #05 &bull; REGISTRO DE HOSPEDAJE</span>
+        <span class="cctv-code">12:48 AM — CAM 03 // HOSPEDAJE SUR // HABITACIÓN 104</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_05_hotel_bed.png" alt="CCTV Habitación de motel Hotel Bed 2.0" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Hotel Bed 2.0 — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "At least I'll spend the night inside this bed,<br>
+          In the freezing sheets of a hotel room instead.<br>
+          I'll give my body up just like a service to be sold,<br>
+          And I will never see the stranger from the car upon the road."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">01:05 AM &bull; 📴 Ahorro de batería</span>
+              <span class="status-right status-alert">36% 🗲</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Hab. 104 &bull; 01:05 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Tengo que admitir algo, después de lo que pasó con el Cempasúchil y lo que ese señor me hizo hacerle para pasar la noche ya no tengo tanto miedo, ya no duele tanto, sigo sin querer dar besos porque siento que eso solo se puede hacer con quien amas pero... no siento que lo que haga esté bien tampoco, no quiero acostumbrarme a esta sensación, pero lo necesito, si no... volveré a dormir afuera en el frío.</p>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 06: MIDNIGHT STEPS -->
+    <article class="evidence-entry" id="track-06">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #06 &bull; CÁMARA VIAL URBANA</span>
+        <span class="cctv-code">12:00 AM — CAM 11 // AV. INSURGENTES SUR // CRUCE VEHICULAR</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_06_midnight_steps.png" alt="CCTV Cruce vehicular Midnight Steps" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Midnight Steps — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "Midnight steps, so sad and serene<br>
+          In the city where nothing scares me anymore<br>
+          All alone, with nowhere to go, what does it mean?<br>
+          Just a body that’s knocking on a bed's door<br>
+          And a check that bought what felt like love before"
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">12:14 AM &bull; ⚠ Red inestable</span>
+              <span class="status-right status-alert">24% 🗲</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Camino &bull; 12:14 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Ya es medianoche, acabo de terminar con un cliente ahora pero fue en su casa, ahora tengo que regresarme solo al hotel en donde con lo que me dio me alcanza para pagar la habitación por hoy, ya no tengo frío, solo miro las luces de la ciudad desvanecerse, pero siento que igual me estoy desvaneciendo.</p>
+                <div class="system-memo-line">[SISTEMA: PODÓMETRO 18,420 PASOS // INERCIA NOCTURNA]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 07: DRENCHED 2.0 -->
+    <article class="evidence-entry" id="track-07">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #07 &bull; REGISTRO DE MESA PERICIAL</span>
+        <span class="cctv-code">04:20 AM // HOSPEDAJE CENTRAL // HAB. 208</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_07_drenched.png" alt="Mesa de noche con teléfono y billetes Drenched 2.0" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">Drenched 2.0 — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "He grabs my hand, leans in for a kiss,<br>
+          My neck and my body, the boundaries I miss.<br>
+          I try and I don’t want it, can't push him away,<br>
+          I take it in silence, he’s ready to pay.<br>
+          I used to say nothing was quite as deep,<br>
+          As a kiss from the one that you wanted to keep."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">04:20 AM &bull; 🚨 Modo crítico</span>
+              <span class="status-right status-critical">14% 🗲</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Hab. 208 &bull; 04:20 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Me gusta pensar que estoy guardando mis besos para cuando llegue alguien que de verdad me quiera y me ame, no quiero que llegue el día en que cuando lo encuentre no pueda mirarlo a los ojos y rechace cada uno de sus besos, Me duele pensar eso, de verdad, me duele...</p>
+                <div class="system-memo-line">[NOTIFICACIONES: 4 LLAMADAS PERDIDAS // 3 MENSAJES DE DESCONOCIDOS]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PISTA 08: THE WATER WON'T WASH -->
+    <article class="evidence-entry" id="track-08">
+      <div class="entry-meta">
+        <span class="cctv-tag">EVIDENCIA #08 &bull; CIRCUITO DE DUCHA</span>
+        <span class="cctv-code">1:05 AM — CAM 04 // BAÑO // COLAPSO POST-INCIDENTE</span>
+      </div>
+
+      <div class="evidence-media">
+        <img src="assets/images/aplea_08_the_water_wont_wash.png" alt="CCTV Baño bajo la ducha The Water Won't Wash" loading="lazy">
+      </div>
+
+      <div class="audio-player-box">
+        <div class="player-header">
+          <span class="track-name">The Water Won't Wash — DarkCry 1.0</span>
+          <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+        </div>
+        <blockquote class="track-quote">
+          "The water won't wash away,<br>
+          the thoughts spinning in my head.<br>
+          Every single thing that's wrong,<br>
+          from the awful life I led.<br>
+          Laying on the floor, not knowing what to do,<br>
+          What did I do to deserve this coming true?<br>
+          What did I do to deserve all of this pain?<br>
+          Laying on this shower floor, right by the drain."
+        </blockquote>
+      </div>
+
+      <div class="smartphone-frame">
+        <div class="phone-body">
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span class="status-left">01:10 AM &bull; 🚨 Apagado inminente</span>
+              <span class="status-right status-critical">7% 🗲</span>
+            </div>
+            <div class="app-container">
+              <div class="app-top">
+                <span class="app-back">&lt; Notas</span>
+                <span class="app-folder">Ducha 208 &bull; 01:10 AM</span>
+                <span class="app-done">Listo</span>
+              </div>
+              <div class="note-paper">
+                <p>Me baño y dejo que el agua se lleve todo, todo, pero ¿por qué?, ¿por qué no se van estos recuerdos que me atormentan? ¿Por qué me sigo sintiendo así? No entiendo... el agua está fría, solo quiero llorar, no sé qué más hacer.</p>
+                <div class="system-memo-line">[ALERTA: VOLTAJE CRÍTICO // PREPARANDO PARTICIONES RESIDUALES]</div>
+                <span class="text-cursor">▌</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- BIFURCACIÓN FINAL INTERACTIVA (TRACK 09) -->
+    <section class="branch-section" id="fork-section">
+      <div class="branch-header">
+        <span class="branch-alert">⚠ CRASH DEL SISTEMA OPERATIVO &bull; BATERÍA RESIDUAL INFERIOR AL 3%</span>
+        <h2>RECUPERACIÓN FORENSE DE PARTICIONES RESIDUALES</h2>
+        <p>El dispositivo entra en apagado forzado. Solo es posible restaurar una de las dos memorias no volátiles que quedaron grabadas antes de la pérdida total de energía. Seleccione la ruta para examinar el desenlace:</p>
+      </div>
+
+      <div class="branch-selector">
+        <button class="branch-btn active" id="btn-soul" onclick="switchRoute('soul')">
+          <span class="btn-tag">RUTA 09A</span>
+          <span class="btn-title">SOUL ROAD</span>
+          <span class="btn-sub">Crying In The Bubblebath (Colapso Interno)</span>
+        </button>
+
+        <button class="branch-btn" id="btn-body" onclick="switchRoute('body')">
+          <span class="btn-tag">RUTA 09B</span>
+          <span class="btn-title">BODY ROAD</span>
+          <span class="btn-sub">Captivity (La Jaula del Cazador)</span>
+        </button>
+      </div>
+
+      <!-- DESENLACE A: SOUL ROAD -->
+      <div class="route-panel active" id="panel-soul">
+        <div class="entry-meta">
+          <span class="cctv-tag">PARTICIÓN #09A &bull; MONITOREO CRT PERICIAL</span>
+          <span class="cctv-code">02:15 AM — CAM 04 // BUBBLEBATH // ESTADO CONTINUO</span>
+        </div>
+
+        <div class="evidence-media">
+          <img src="assets/images/aplea_09a_bubblebath.png" alt="Monitor CRT Bañera desbordada Crying In The Bubblebath" loading="lazy">
+        </div>
+
+        <div class="audio-player-box">
+          <div class="player-header">
+            <span class="track-name">Crying In The Bubblebath — DarkCry 1.0</span>
+            <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+          </div>
+          <blockquote class="track-quote">
+            "I’ll fill the bathtub with water to the brim<br>
+            With delicate bubbles while the lights go dim<br>
+            I know I had a whole lifetime ahead<br>
+            But I don't want to suffer in this porcelain bed...<br><br>
+            Mom, I love you... Dad, I love you...<br>
+            Did you ever really love me too?<br>
+            [The sound of dripping water slowly fades out]"
+          </blockquote>
+        </div>
+
+        <div class="smartphone-frame">
+          <div class="phone-body">
+            <div class="phone-screen screen-off-effect">
+              <div class="phone-status-bar">
+                <span class="status-left">02:18 AM &bull; Apagando sistema...</span>
+                <span class="status-right status-dead">2% 🪫</span>
+              </div>
+              <div class="app-container">
+                <div class="app-top">
+                  <span class="app-back">&lt; Notas</span>
+                  <span class="app-folder">Borrador final &bull; 02:18 AM</span>
+                  <span class="app-done">Cerrar</span>
+                </div>
+                <div class="note-paper">
+                  <p>Lo siento mamá, lo siento papá, lo siento a todos, dejé que me mancharan, dejé que me usaran, soy un asco, quizás papá por eso se fue, porque no pude ser como él quería, quizás por eso mamá me odiaba, quizás no merecía ni siquiera haber nacido, me odio tanto, pero, los amo tanto, lo siento mucho...</p>
+                  <div class="system-memo-line">[DESCONEXIÓN TOTAL DE HARDWARE // PANTALLA EN NEGRO]</div>
+                  <span class="text-cursor">▌</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESENLACE B: BODY ROAD -->
+      <div class="route-panel" id="panel-body">
+        <div class="entry-meta">
+          <span class="cctv-tag">PARTICIÓN #09B &bull; EVIDENCIA FOTOGRÁFICA OFICIAL</span>
+          <span class="cctv-code">03:40 AM // RECINTO PRIVADO // CAPTIVIDAD</span>
+        </div>
+
+        <div class="evidence-media">
+          <img src="assets/images/aplea_09b_captivity.png" alt="Carátula oficial Captivity DarkCry 1.0" loading="lazy">
+        </div>
+
+        <div class="audio-player-box">
+          <div class="player-header">
+            <span class="track-name">Captivity — DarkCry 1.0</span>
+            <span class="player-buttons">⏩ ▶️ ⏪ ⏯️</span>
+          </div>
+          <blockquote class="track-quote">
+            "Now I'm just a young lion locked in a cage,<br>
+            Caught in his bed by the hunter's dark rage.<br>
+            He just wants my youth and my body to take,<br>
+            To devour me whole for his appetite's sake.<br>
+            A little cub in captivity...<br>
+            He turned the key and sealed up my doom...<br>
+            A brutal lesson I finally came to know:<br>
+            Men never seek you for anything pure.<br>
+            I'm just a foolish young boy, making a show,<br>
+            But someday I'll flip this whole game, that's for sure."
+          </blockquote>
+        </div>
+
+        <div class="smartphone-frame">
+          <div class="phone-body">
+            <div class="phone-screen screen-off-effect">
+              <div class="phone-status-bar">
+                <span class="status-left">03:40 AM &bull; Sin señal</span>
+                <span class="status-right status-dead">1% 🪫</span>
+              </div>
+              <div class="app-container">
+                <div class="app-top">
+                  <span class="app-back">&lt; Notas</span>
+                  <span class="app-folder">Jaula &bull; 03:40 AM</span>
+                  <span class="app-done">Cerrar</span>
+                </div>
+                <div class="note-paper">
+                  <p>Otra vez aquí, otra vez una casa desconocida, ¿por qué volví a confiar?, ¿por qué me pasa esto?, pero no... No voy a dejar que me siga pasando, prometo que algún día voy a cambiar todo esto, no sé cómo, no sé cuándo pero algún día, dejaré de ser la presa.</p>
+                  <div class="system-memo-line">[BLOQUEO MECÁNICO // BATERÍA AL 0% // DISPOSITIVO APAGADO]</div>
+                  <span class="text-cursor">▌</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DOCUMENTAL: LA REALIDAD DETRÁS DEL POEMA -->
+    <section class="documentary-section" id="documentary">
+      <div class="doc-header">
+        <span class="doc-label">MARCO TEÓRICO, LEGAL Y SOCIOLÓGICO</span>
+        <h2 class="doc-title">LA REALIDAD DETRÁS DEL POEMA</h2>
+        <p class="doc-subtitle">Desarticulación del estigma: Violencia familiar, fuga forzada y sexo por supervivencia en México y Latinoamérica</p>
+      </div>
+
+      <div class="doc-body">
+        <p class="doc-lead">
+          La novela sonora de <em>A Plea for Shelter</em> no responde al efectismo melodramático ni a la ficción morbosa. La trayectoria descrita a lo largo de sus diez pistas documenta con rigor clínico y sociológico la experiencia de miles de adolescentes expulsados del entorno doméstico que ingresan a circuitos urbanos de supervivencia en condiciones de absoluta desprotección institucional.
+        </p>
+
+        <div class="doc-matrix">
+          <div class="matrix-card">
+            <h3>1. Cold All Around: La Fuga como Desplazamiento Forzado</h3>
+            <p>Lejos de obedecer a una conducta rebelde, el abandono del hogar constituye una decisión desesperada de autopreservación biológica. En México, los Registros de Lesiones de la Secretaría de Salud sistematizados por <strong>REDIM</strong> registraron <strong>20,435 niñas, niños y adolescentes hospitalizados por violencia familiar en 2024</strong>, un incremento acumulado de <strong>590.1% respecto a 2010</strong>. El 80.1% de los casos se concentra entre los 12 y 17 años, el 87.3% son mujeres jóvenes y 9 de cada 10 agresiones ocurren dentro del domicilio.</p>
+          </div>
+
+          <div class="matrix-card">
+            <h3>2. Eat Cigarettes &amp; Locked Door: Hambre y el Falso Protector</h3>
+            <p>La intemperie impone de inmediato la privación calórica severa y el frío fisiológico; el tabaco y los solventes operan como anestésicos gástricos para tolerar la vigilia. La literatura sociológica documenta que el mayor peligro no es la soledad, sino la cooptación por parte de supuestos benefactores adultos: individuos que ofrecen hospedaje temporal para cerrar la puerta con llave y exigir el pago mediante abuso físico o coerción sexual.</p>
+          </div>
+
+          <div class="matrix-card">
+            <h3>3. Need The Green, Hotel Bed &amp; Drenched: Sexo por Supervivencia</h3>
+            <p>El denominado <em>survival sex</em> no es trabajo sexual voluntario ni elección económica formal: es el intercambio del cuerpo para no morir de congelamiento o inanición. Datos de <strong>PubMed Central (PMC)</strong> y <strong>Covenant House</strong> revelan que entre el <strong>28% y el 48% de jóvenes sin techo</strong> realizan sexo por supervivencia. En México, el <strong>SESNSP</strong> documentó <strong>2,562 víctimas de trata de 0 a 17 años (2015-2024)</strong>, de las cuales el <strong>95% padece explotación sexual</strong>.</p>
+          </div>
+
+          <div class="matrix-card">
+            <h3>4. The Water Won't Wash: Trauma Complejo y Disociación</h3>
+            <p>El Centro CORE de la <strong>Universidad de Pensilvania</strong> conceptualiza el trauma complejo como la acumulación crónica de victimización y desamparo. Para tolerar la agresión continuada, la psique activa la despersonalización defensiva ("apagar la mente"), anulando los límites personales. El agua caliente limpia la piel pero no suprime la culpa ni el estigma social somatizado.</p>
+          </div>
+
+          <div class="matrix-card wide">
+            <h3>5. Soul Road vs. Body Road: La Ausencia de Salida sin Rescate</h3>
+            <p>La estructura del álbum concluye sin un final feliz espontáneo. Sin una red activa de acogida estatal, comunitaria o afectiva, la calle solo reserva dos desenlaces trágicos: el colapso psicológico interiorizado y el suicidio (<em>Soul Road / Crying In The Bubblebath</em>) o la reclusión y cooptación física permanente bajo redes de predación (<em>Body Road / Captivity</em>). La súplica por refugio no exige romance ni riquezas: exige un techo sin violencia, una puerta sin cerrojos y una sociedad que deje de mirar hacia otro lado.</p>
+          </div>
+        </div>
+
+        <!-- LISTA FORMAL DE FUENTES Y REFERENCIAS -->
+        <div class="doc-sources">
+          <h3 class="sources-heading">FUENTES OFICIALES Y REFERENCIAS DE VERIFICACIÓN</h3>
+          <ul class="sources-list">
+            <li>
+              <strong>Red por los Derechos de la Infancia en México (REDIM):</strong> 
+              <em>Violencia Familiar Contra La Niñez En México (2010–2024)</em>. Análisis basado en los Registros de Lesiones del Sistema Nacional de Información en Salud (SINAIS), Secretaría de Salud, México.
+            </li>
+            <li>
+              <strong>Fondo de las Naciones Unidas para la Infancia (UNICEF):</strong> 
+              <em>Violencia contra niños, niñas y adolescentes en América Latina y el Caribe</em>. Reportes regionales sobre disciplina violenta (2 de cada 3 menores afectados) y homicidios infantiles (12.6 por 100,000 habitantes).
+            </li>
+            <li>
+              <strong>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP):</strong> 
+              <em>Estadísticas de Trata de Personas e Incidencia Delictiva (2015–2024)</em>. Carpetas de investigación oficiales con 2,562 menores de edad víctimas de trata, de los cuales el 95% sufren explotación sexual comercial.
+            </li>
+            <li>
+              <strong>PubMed Central (PMC) / National Institutes of Health (NIH):</strong> 
+              <em>Prevalence and correlates of survival sex among runaway and homeless youth</em>. Estudios multicéntricos sobre trayectorias de calle, privación de albergue y victimización extrema.
+            </li>
+            <li>
+              <strong>University of Pennsylvania (Penn) / Center for Mental Health Services (CORE):</strong> 
+              <em>Trauma-Informed Case Management Practice for Youth Experiencing Homelessness</em>. Definición clínica del trauma complejo crónico y mecanismos de disociación psicológica.
+            </li>
+            <li>
+              <strong>SciELO &amp; OpenEdition Journals:</strong> 
+              <em>Salud sexual y reproductiva en adolescentes callejeras</em> y <em>Sociología de la supervivencia: el comercio sexual adolescente en urbes latinoamericanas</em>.
+            </li>
+            <li>
+              <strong>Roy Shuker / Musicología Contemporánea:</strong> 
+              <em>Understanding Popular Music: The Concept Album as Narrative Literature</em>. Estructura narrativa del álbum conceptual acumulativo en capítulos.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CIERRE DE PÁGINA Y EMBLEMA DE MARCA -->
+    <footer class="case-footer">
+      <div class="footer-emblem-wrap">
+        <img src="assets/images/darkcry_logo.png" alt="DarkCry 1.0 Crest" class="footer-logo">
+      </div>
+      <h3 class="footer-title">DARKCRY 1.0</h3>
+      <p class="footer-sub">PROYECTO ARTÍSTICO Y DISCOGRÁFICO INDEPENDIENTE</p>
+      <div class="footer-links">
+        <a href="https://darkcry10.github.io/" class="footer-btn">[ RETORNAR AL PORTAL OFICIAL ]</a>
+        <a href="https://darkcry10.github.io/CrimsonSky/" class="footer-btn">[ VER ARCHIVO: CRIMSON SKY ]</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 DarkCry 1.0. Todos los derechos reservados. Registrado ante el Departamento de Derechos Intelectuales (DDI).</p>
+    </footer>
+
+  </main>
+
+  <!-- CONTROL SCRIPT PARA LA BIFURCACIÓN -->
+  <script>
+    function switchRoute(route) {
+      const btnSoul = document.getElementById('btn-soul');
+      const btnBody = document.getElementById('btn-body');
+      const panelSoul = document.getElementById('panel-soul');
+      const panelBody = document.getElementById('panel-body');
+
+      if (route === 'soul') {
+        btnSoul.classList.add('active');
+        btnBody.classList.remove('active');
+        panelSoul.classList.add('active');
+        panelBody.classList.remove('active');
+      } else {
+        btnBody.classList.add('active');
+        btnSoul.classList.remove('active');
+        panelBody.classList.add('active');
+        panelSoul.classList.remove('active');
+      }
+    }
+  </script>
+</body>
+</html>
